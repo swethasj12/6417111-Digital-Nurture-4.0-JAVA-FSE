@@ -5,5 +5,5 @@ BEGIN
     UPDATE loans
     SET interest_rate = interest_rate - 1
     WHERE customer_id = rec.customer_id;
-SELECT * FROM loans;
   END LOOP;
+SELECT * FROM loans;
