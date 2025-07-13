@@ -1,0 +1,12 @@
+package com.cognizant.india.india_info_api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class IndiaInfoApiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(IndiaInfoApiApplication.class, args);
+    }
+}
