@@ -1,0 +1,27 @@
+/* src/Stylesheets/mystyle.css */
+
+/* This will center the score-card in the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.score-card {
+  border: 2px solid #4CAF50;
+  padding: 20px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.score-card h2 {
+  color: #333;
+  text-align: center;
+}
