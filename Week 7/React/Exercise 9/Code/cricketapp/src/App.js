@@ -1,14 +1,13 @@
 import React from "react";
 import ListofPlayers from "./ListofPlayers";
-import IndianPlayers from "./IndianPlayers";
 
 function App() {
-  const flag = true; // Toggle this to false to test both
+  const flag = false; // Change to false to test the below-70 list
 
   return (
     <div className="App">
       <h1>🏏 Cricket App</h1>
-      {flag ? <ListofPlayers /> : <IndianPlayers />}
+      <ListofPlayers flag={flag} />
     </div>
   );
 }
