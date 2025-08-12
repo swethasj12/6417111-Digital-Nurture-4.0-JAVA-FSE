@@ -33,3 +33,7 @@ In your local project directory (`myproject2`), run:
 
 ```bash
 git remote add origin https://gitlab.com/your_username/myproject2.git
+
+## Step 4: Push your commits to GitLab
+git push -u origin master
+
